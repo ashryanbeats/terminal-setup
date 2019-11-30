@@ -6,7 +6,7 @@
 
 ########## Variables
 
-dir=~/dotfiles/dotfiles         # dotfiles directory
+dir=~/terminal-setup/dotfiles         # dotfiles directory
 olddir=~/dotfiles_old           # old dotfiles backup directory
 files=("zshrc.sh" "jshintrc.json")      # list of files/folders to symlink in homedir
 

@@ -1,19 +1,19 @@
 #!/bin/bash
 
 printf "\n"
-source ~/dotfiles/scripts/installzsh.sh
+source ~/terminal-setup/scripts/installzsh.sh
 
 printf "\n"
-zsh ~/dotfiles/scripts/createdotfiles.sh
+zsh ~/terminal-setup/scripts/createdotfiles.sh
 
 printf "\n"
-zsh ~/dotfiles/scripts/installnode.sh
+zsh ~/terminal-setup/scripts/installnode.sh
 
 printf "\n"
-zsh ~/dotfiles/scripts/installnodemodules.sh
+zsh ~/terminal-setup/scripts/installnodemodules.sh
 
 printf "\n"
-node ~/dotfiles/scripts/clonescripts.js
+node ~/terminal-setup/scripts/clonescripts.js
 
 printf "\n"
-zsh ~/dotfiles/scripts/finalize.sh
+zsh ~/terminal-setup/scripts/finalize.sh

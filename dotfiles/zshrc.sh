@@ -51,8 +51,8 @@ export EDITOR='nano'
 # For a full list of active aliases, run `alias`.
 alias hs="http-server"
 alias ip="/sbin/ifconfig en0 | grep 'inet '"
-alias zsh-config="nano ~/dotfiles/dotfiles/zshrc.sh"
-alias zsh-read="less ~/dotfiles/dotfiles/zshrc.sh"
+alias zsh-config="nano ~/terminal-setup/dotfiles/zshrc.sh"
+alias zsh-read="less ~/terminal-setup/dotfiles/zshrc.sh"
 alias zsh-reload="source ~/.zshrc"
 alias marked="open -a 'Marked 2'"
 alias hideon="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"

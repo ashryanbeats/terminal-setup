@@ -1,19 +1,19 @@
-# Dotfiles
+# Terminal setup
+
+Sets up zsh/Oh My Zsh, dotfiles, shell scripts, Node.js/npm, and global npm modules.
 
 ```shell
 $ ./init.sh
 ```
 
-Todo:
-
-- Add comments throughout
-
 ## Where things are
 
 After running `./init.sh`:
 
-- Dotfiles: `~/dotfiles/dotfiles` (symlinks in `~`)
+- Dotfiles: `~/terminal-setup/dotfiles` (symlinks in `~`)
 - Shell scripts: `~/shell-scripts` (symlinks in `~/bin`)
+
+Edit and read those files at the paths above.
 
 ## Tracking a new dotfile
 
