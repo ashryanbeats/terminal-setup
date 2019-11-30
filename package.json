@@ -1,0 +1,16 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "Tracking dotfiles and init scripts for setting up new machines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ash Ryan Arnwine",
+  "license": "ISC",
+  "dependencies": {
+    "hosted-git-info": "^3.0.2",
+    "nodegit": "^0.26.2",
+    "shelljs": "^0.8.3"
+  }
+}
