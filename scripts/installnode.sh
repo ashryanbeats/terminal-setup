@@ -12,8 +12,10 @@ install_node () {
 
     if [ ! -d ~/n ]; then
       echo "Installing n..."
-
-      sh -c "$(curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o n)" &
+      cd ~
+      git clone https://github.com/tj/n.git
+      cd n
+      sudo make install
       wait
     fi
 

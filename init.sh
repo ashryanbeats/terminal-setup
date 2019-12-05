@@ -7,6 +7,12 @@ printf "\n"
 zsh ~/terminal-setup/scripts/createdotfiles.sh
 
 printf "\n"
+zsh ~/terminal-setup/scripts/installterminalfonts.sh
+
+printf "\n"
+zsh ~/terminal-setup/scripts/installterminaltheme.sh
+
+printf "\n"
 zsh ~/terminal-setup/scripts/installnode.sh
 
 printf "\n"
