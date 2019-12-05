@@ -13,10 +13,10 @@ const scriptsDirname = "shell-scripts";
 
 const gitRepos = [
   {
-    url: "https://github.com/ashryanbeats/shell-git-user-config.git",
+    url: "https://github.com/ashryanbeats/gcu.git",
     name: "gcu"
   },
-  { url: "https://github.com/ashryanbeats/gh-url.git", name: "ghurl" }
+  { url: "https://github.com/ashryanbeats/ghurl.git", name: "ghurl" }
 ];
 
 const cdToUser = shell.cd("~");
