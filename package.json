@@ -9,7 +9,7 @@
   "author": "Ash Ryan Arnwine",
   "license": "ISC",
   "dependencies": {
-    "hosted-git-info": "^3.0.2",
+    "hosted-git-info": "^3.0.8",
     "nodegit": "^0.26.2",
     "shelljs": "^0.8.3"
   }
