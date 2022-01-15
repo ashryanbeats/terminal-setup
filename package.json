@@ -11,6 +11,6 @@
   "dependencies": {
     "hosted-git-info": "^3.0.2",
     "nodegit": "^0.26.2",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   }
 }
